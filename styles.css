@@ -1,0 +1,40 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+.header{
+    background-color: blue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header ul{
+    list-style-type: none;
+    margin:0;
+}
+
+.header ul li{
+    display: inline;
+    cursor: pointer;
+    
+}
+
+.header ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+
+
+.header ul li a:hover{
+    color:gray;
+}
+
+.header ul li:nth-child(2){
+    margin-left:10px;
+}
+
+.icons{
+    font-size:2rem;
+}
